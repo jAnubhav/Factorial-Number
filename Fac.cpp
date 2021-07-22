@@ -12,10 +12,11 @@ int factorial(int num) {
 
 int main() {
     int num;
-    cout<<"Enter a Number";
+    cout<<"Enter a Number : ";
     cin>>num;
 
     int fac = factorial(num);
-    cout<<"The factorial of the number is " + fac;
+    cout<<"The factorial of the number is ";
+    cout<<fac;
     return 0;
 }
