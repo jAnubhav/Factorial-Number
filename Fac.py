@@ -5,6 +5,6 @@ def factorial(num):
     return fac
 
 if __name__ == "__main__":
-    num = int(input("Enter a number : "))
+    num = int(input("Enter a Number : "))
     fac = factorial(num)
     print("Factorial of the number is", fac)
